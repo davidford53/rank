@@ -42,3 +42,6 @@ rankhospital <- function(state, condition, num="best"){
   }
   
 }
+
+# > rankhospital("TX","heart failure",4)
+# [1] "DETAR HOSPITAL NAVARRO"
